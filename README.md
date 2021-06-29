@@ -25,3 +25,11 @@ Challenge [link](https://cssbattle.dev/play/3)
 Challenge [link](https://cssbattle.dev/play/4)
 
 [https://www.youtube.com/watch?v=FOihrfBLwvw](https://www.youtube.com/watch?v=FOihrfBLwvw)
+
+## Visibility
+
+### Totally Triangle
+
+Challenge [link](https://cssbattle.dev/play/13)
+
+[https://www.youtube.com/watch?v=g3yFoN95d6k](https://www.youtube.com/watch?v=g3yFoN95d6k)
