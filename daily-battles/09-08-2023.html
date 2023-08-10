@@ -2,12 +2,27 @@
 <div class="small-tri"></div>
 <style>
   body {
-    background: #FFA885;
+    margin: 0;
+    background: #F5D6B4;
   }
-  .big-tri {
+  .small-tri {
+    position: absolute;
+    margin-top: -53px;
     width: 0;
     height: 0;
-    background: #dd6b4d;
+    border-right: 600px solid transparent;
+    border-top: 141px solid transparent;
+    border-bottom: 160px solid #FFA885;
+    transform: scale(-1, 1)
+  }
+  .big-tri {
+    z-index: 2;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 600px solid transparent;
+    border-top: 141px solid transparent;
+    border-bottom: 160px solid #D86F45;
   }
 </style>
 
