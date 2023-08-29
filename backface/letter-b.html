@@ -1,46 +1,33 @@
-<div class="bc"></div>
-<div class="sc"></div>
-<div class="fq"></div>
-<div class="bar"></div>
+<div></div>
 <style>
   body {
-    margin: 0;
     background: #6592CF;
+    display: grid;
+    place-items: center;
   }
-  .bc, .fq {
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 50px;
+  div {
     width: 200px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 0 50% 50%;
     background: #243D83;
+    display: grid;
+    place-items: center;
   }
-  .sc {
-    z-index: 2;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 100px;
+  div::before {
+    content: "";
     width: 100px;
     height: 100px;
-    border-radius: 100px;
+    border-radius: 50%;
     background: #6592CF;
   }
-  .fq {
-    z-index: 4;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px 0 0 0;
-    background: #6592CF;
-  }
-  .bar {
+  div::after {
     position: absolute;
-    margin-left: 100px;
-    margin-top: 50px;
-    z-index: 6;
+    content: "";
+    top: 50px;
+    left: 150px;
     width: 50px;
     height: 100px;
-    background: #243D83;
+    background: #6592CF;
   }
 </style>
 
